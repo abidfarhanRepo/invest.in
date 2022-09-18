@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+:root{
+    --primary:  #39A0ED;
+    --background: #F3FCF0;
+    --text-color: #1E1E1E;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    /* background-color: var(--background); */
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top:40px ;
+    /* justify-content: space-between; */
+}
+.logo{
+    margin-left: 2rem;
+    margin-right: auto;
+    /* background-color: red; */
+    width: 200px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: var(--text-color);
+    cursor: pointer;
+
+}
+.logo:hover{
+    transition: 0.5s;
+    color: var(--primary);
+
+}
+
+.nav-links{
+    display: flex;
+    flex-direction: row;
+    /* background-color: red; */
+
+}
+.nav-link{
+   color: var(--text-color);
+    text-decoration: none;
+    /* background-color: blue; */
+    margin: auto 0;
+    width: 15rem;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-link:hover{
+    transition: 0.5s;
+    color: grey;
+}
+.login-button{
+    color: white;
+    
+    margin-left: 50px;
+   
+}
+
+.btn{
+    background-color: var(--primary);
+    height: 60px;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 100px;
+
+}
+
+.btn:hover{
+    transition: 0.5s;
+    background-color: lightskyblue;
+}
+.hero{
+    margin-top: 10px;
+    /* border-top: 20px solid black; */
+    /* background-color: lightgreen; */
+    /* border-bottom: 20px solid black; */
+}
+
+.hero-text h1{
+    font-weight: bold;
+    font-size: 4rem;
+    line-height: 4rem;
+    width: 500px;
+    /* background-color: lightcoral; */
+    margin-bottom: 5px;
+    text-align: start;
+}
+
+.hero-text h4{
+    font-weight: 300;
+    font-size: 1rem;
+    margin-top: 25px;
+    width: 400px;
+    margin-top: 25px;
+    text-align: start;
+}
+
+.hero-img{
+    width: 35rem;
+
+}
+
+.buttons-hero{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 25px;
+}
+.hero-btn{
+    color: white;
+    margin-left: 0px;
+    margin-right: 15px;
+    cursor: pointer;
+
+}
+
+.watch-btn{
+    margin: 15px;
+    /* background-color: lightcoral; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: lightblue; */
+    height: 60px;
+    width: 160px;
+    border-radius: 100px;
+    cursor: pointer;
+
+}
+.watch-btn i{
+    /* color: var(--primary); */
+    font-size: 1.5rem;
+    /* margin: px solid blue; */
+    margin-right: 5px;
+}
+
+.watch-btn:hover{
+    transition: 0.5s;
+    background-color: lightskyblue;
+}
